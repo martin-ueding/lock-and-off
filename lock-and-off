@@ -1,0 +1,8 @@
+#!/bin/bash
+# Copyright © 2012 Martin Ueding <dev@martin-ueding.de>
+
+set -e
+set -u
+
+qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock
+xset dpms force off
