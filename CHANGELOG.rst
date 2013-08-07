@@ -4,6 +4,9 @@
 Changelog
 #########
 
+v1.1
+    - Add a little sleep timeout
+
 v1.0.1
     - GPLv2
 
