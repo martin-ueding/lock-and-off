@@ -4,6 +4,9 @@
 Changelog
 #########
 
+v1.2
+    - Pause clementine before locking
+
 v1.1
     - Add a little sleep timeout
 
