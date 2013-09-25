@@ -4,6 +4,9 @@
 Changelog
 #########
 
+v1.2.1
+    - Stop clementine, since pause toggles
+
 v1.2
     - Pause clementine before locking
 
