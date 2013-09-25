@@ -6,7 +6,7 @@ set -u
 
 if qdbus | grep -i clementine
 then
-	qdbus org.mpris.clementine /Player Pause
+	qdbus org.mpris.clementine /Player Stop
 fi
 
 qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock
