@@ -1,8 +1,13 @@
-.. Copyright © 2013 Martin Ueding <dev@martin-ueding.de>
+.. Copyright © 2013-2014 Martin Ueding <dev@martin-ueding.de>
 
 #########
 Changelog
 #########
+
+v1.2.2
+    Released: 2014-05-27
+
+    - Recover from missing ``qdbus``
 
 v1.2.1
     - Stop clementine, since pause toggles
