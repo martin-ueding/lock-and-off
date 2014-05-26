@@ -1,14 +1,12 @@
-#!/bin/bash
-# Copyright © 2012-2013 Martin Ueding <dev@martin-ueding.de>
-
-set -e
-set -u
+#!/bin/fish
+# Copyright © 2012-2014 Martin Ueding <dev@martin-ueding.de>
 
 if qdbus | grep -i clementine
-then
-	qdbus org.mpris.clementine /Player Stop
-fi
+    qdbus org.mpris.clementine /Player Stop
+end
 
-qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock
+if qdbus
+    qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock
+end
 sleep 4
 xset dpms force off
