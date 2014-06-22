@@ -4,6 +4,11 @@
 Changelog
 #########
 
+v1.2.3
+    Released: 2014-06-22
+
+    - Fix qdbus issue
+
 v1.2.2
     Released: 2014-05-27
 
