@@ -25,5 +25,5 @@ then
 fi
 
 # Power all screens down.
-#sleep 2
-#xset dpms force off
+sleep 1
+xset dpms force off
