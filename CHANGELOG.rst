@@ -1,8 +1,16 @@
-.. Copyright © 2013-2014 Martin Ueding <dev@martin-ueding.de>
+.. Copyright © 2013-2015 Martin Ueding <dev@martin-ueding.de>
 
 #########
 Changelog
 #########
+
+v1.3.0
+    Released: 2015-05-25
+
+    - Port to bash to remove fish dependency which is not available in standard
+      openSUSE.
+
+    - Support ``slock``.
 
 v1.2.3
     Released: 2014-06-22
